@@ -1,4 +1,6 @@
 git init: Initializes a new Git repository in the current directory.
 git add [file]: Adds a file or changes in a file to the staging area.
 git commit -m "[commit message]": Commits changes in the staging area to the local repository.
-git remote add [name] [URL]: Adds a new remote repository.
+git remote add origin [URL]: Adds a new remote repository.
+git branch -M main
+git push -u origin main
