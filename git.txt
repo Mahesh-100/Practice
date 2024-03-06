@@ -1,1 +1,2 @@
-1.git init: Initializes a new Git repository in the current directory.
+git init: Initializes a new Git repository in the current directory.
+git add [file]: Adds a file or changes in a file to the staging area.
