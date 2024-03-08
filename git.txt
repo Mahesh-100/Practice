@@ -4,5 +4,4 @@ git commit -m "[commit message]": Commits changes in the staging area to the loc
 git remote add origin [URL]: Adds a new remote repository.
 git branch -M main
 git push -u origin main
-hello world
-12345678
+git clone URL
