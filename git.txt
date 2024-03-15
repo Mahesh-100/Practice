@@ -5,4 +5,3 @@ git remote add origin [URL]: Adds a new remote repository.
 git branch -M main
 git push -u origin main
 git clone URL
-hello world
