@@ -5,3 +5,10 @@ git remote add origin [URL]: Adds a new remote repository.
 git branch -M main
 git push -u origin main
 git clone URL
+Run the following command to see the existing remote repositories:
+git remote -v
+If the origin remote points to a different URL and you want to change it to the one you mentioned, you can use:
+git remote set-url origin https://github.com/Mahesh-100/UPI-Payment-Application-Micronaut.git
+If you'd prefer to start fresh, you can first remove the existing origin remote and then add the new one:
+git remote remove origin
+git remote add origin https://github.com/Mahesh-100/UPI-Payment-Application-Micronaut.git
